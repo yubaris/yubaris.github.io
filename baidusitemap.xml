@@ -4,14 +4,14 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/11/21/hello-world/</loc>
-    <lastmod>2016-11-21T08:43:07.918Z</lastmod>
+    <loc>http://yoursite.com/2015/06/06/sitemap/</loc>
+    <lastmod>2016-11-21T08:50:49.852Z</lastmod>
     <data>
         <display>
-        <title>Hello Word</title>
-        <pubTime>2016-11-21T05:51:09.000Z</pubTime>
+        <title>All Documents</title>
+        <pubTime>2015-06-05T22:06:06.000Z</pubTime>
         
-        <tag>Hello</tag>
+        <tag>Index</tag>
          
          
            
@@ -21,14 +21,14 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/11/21/sitemap/</loc>
-    <lastmod>2016-11-21T08:42:31.802Z</lastmod>
+    <loc>http://yoursite.com/2016/11/21/hello-world/</loc>
+    <lastmod>2016-11-21T08:43:07.918Z</lastmod>
     <data>
         <display>
-        <title>sitemap</title>
-        <pubTime>2016-11-21T08:27:16.000Z</pubTime>
+        <title>Hello Word</title>
+        <pubTime>2016-11-21T05:51:09.000Z</pubTime>
         
-        <tag>java</tag>
+        <tag>Hello</tag>
          
          
            
