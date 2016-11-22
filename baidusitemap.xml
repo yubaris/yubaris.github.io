@@ -4,7 +4,7 @@
 
     
   <url>
-    <loc>http://yoursite.com/2015/06/06/sitemap/</loc>
+    <loc>http://yoursite.com/sitemap/</loc>
     <lastmod>2016-11-21T08:50:49.852Z</lastmod>
     <data>
         <display>
@@ -21,7 +21,7 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/11/21/hello-world/</loc>
+    <loc>http://yoursite.com/hello-world/</loc>
     <lastmod>2016-11-21T08:43:07.918Z</lastmod>
     <data>
         <display>
@@ -38,7 +38,7 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/11/21/java/</loc>
+    <loc>http://yoursite.com/java/</loc>
     <lastmod>2016-11-21T06:38:15.930Z</lastmod>
     <data>
         <display>
@@ -55,7 +55,7 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/11/21/My-New-Post/</loc>
+    <loc>http://yoursite.com/My-New-Post/</loc>
     <lastmod>2016-11-21T06:28:42.964Z</lastmod>
     <data>
         <display>
@@ -72,7 +72,7 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/11/21/hello/</loc>
+    <loc>http://yoursite.com/hello/</loc>
     <lastmod>2016-11-21T06:10:04.336Z</lastmod>
     <data>
         <display>
