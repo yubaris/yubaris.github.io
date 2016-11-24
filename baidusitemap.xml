@@ -4,6 +4,23 @@
 
     
   <url>
+    <loc>http://yoursite.com/zip-unzip/</loc>
+    <lastmod>2016-11-24T02:36:00.255Z</lastmod>
+    <data>
+        <display>
+        <title>java zip解压缩</title>
+        <pubTime>2016-11-24T02:22:09.000Z</pubTime>
+        
+        <tag>util</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/sitemap/</loc>
     <lastmod>2016-11-21T08:50:49.852Z</lastmod>
     <data>
@@ -12,74 +29,6 @@
         <pubTime>2015-06-05T22:06:06.000Z</pubTime>
         
         <tag>Index</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/hello-world/</loc>
-    <lastmod>2016-11-21T08:43:07.918Z</lastmod>
-    <data>
-        <display>
-        <title>Hello Word</title>
-        <pubTime>2016-11-21T05:51:09.000Z</pubTime>
-        
-        <tag>Hello</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/java/</loc>
-    <lastmod>2016-11-21T06:38:15.930Z</lastmod>
-    <data>
-        <display>
-        <title>java</title>
-        <pubTime>2016-11-21T06:37:48.000Z</pubTime>
-        
-        <tag>java</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/My-New-Post/</loc>
-    <lastmod>2016-11-21T06:28:42.964Z</lastmod>
-    <data>
-        <display>
-        <title>My New Post</title>
-        <pubTime>2016-11-21T01:52:03.000Z</pubTime>
-        
-        <tag>Hello</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/hello/</loc>
-    <lastmod>2016-11-21T06:10:04.336Z</lastmod>
-    <data>
-        <display>
-        <title>hello</title>
-        <pubTime>2016-11-21T05:51:09.000Z</pubTime>
-        
-        <tag>Hello</tag>
          
          
            
