@@ -36,4 +36,21 @@
     </data>
     </url>
 
+    
+  <url>
+    <loc>http://yoursite.com/sitemap/</loc>
+    <lastmod>2016-11-21T08:50:49.852Z</lastmod>
+    <data>
+        <display>
+        <title>All Documents</title>
+        <pubTime>2015-06-05T22:06:06.000Z</pubTime>
+        
+        <tag>Index</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
 </urlset>
