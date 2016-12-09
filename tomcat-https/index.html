@@ -4,16 +4,17 @@
   <meta charset="utf-8">
   
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-  <title>Archives: 2016/11 | Hexo 博客</title>
+  <title>开启tomcat的SSL(https)支持 | Hexo 博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="new day">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Hexo 博客">
-<meta property="og:url" content="http://yoursite.com/archives/2016/11/index.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="开启tomcat的SSL(https)支持">
+<meta property="og:url" content="http://yoursite.com/tomcat-https/index.html">
 <meta property="og:site_name" content="Hexo 博客">
 <meta property="og:description" content="new day">
+<meta property="og:updated_time" content="2016-12-09T02:32:48.048Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo 博客">
+<meta name="twitter:title" content="开启tomcat的SSL(https)支持">
 <meta name="twitter:description" content="new day">
   
     <link rel="alternative" href="/atom.xml" title="Hexo 博客" type="application/atom+xml">
@@ -185,84 +186,168 @@
 	</div>
 </nav>
 
-      <div class="body-wrap">
+      <div class="body-wrap"><article id="post-tomcat-https" class="article article-type-post" itemscope itemprop="blogPost">
   
+    <div class="article-meta">
+        
+            <a href="javascript: void(0)" id="toc-button">目录</a>
+        
+
+        
+    </div>
   
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
     
     
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2016" class="archive-year">2016</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/java-okhttp/" class="archive-article-date">
-  	<time datetime="2016-11-29T02:19:55.000Z" itemprop="datePublished">11月 29</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/java-okhttp/">OkHttp：Java 平台上的新一代 HTTP 客户端</a>
+    <h1 class="article-title" itemprop="name">
+      开启tomcat的SSL(https)支持
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
+      </header>
+      
+      <div class="article-info article-info-post">
+        
 	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/java/">java</a></li></ul>
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/cas-java/">cas, java</a></li></ul>
 	</div>
 
-          
+        
 
-        </div>
         <div class="clearfix"></div>
-    </header>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        
+        
+      
+    </div>
+    
   </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/java-okhttp/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">OkHttp：Java 平台上的新一代 HTTP 客户端</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+  
 </article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/zip-unzip/" class="archive-article-date">
-  	<time datetime="2016-11-24T02:22:09.000Z" itemprop="datePublished">11月 24</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/zip-unzip/">java zip解压缩</a>
-    </h1>
-  
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/util/">util</a></li></ul>
-	</div>
 
-          
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
 
-    
+
+
+<section id="comments" class="duoshuo">
+    <!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="post-tomcat-https" data-title="开启tomcat的SSL(https)支持" data-url="http://yoursite.com/tomcat-https/"></div>
+    <!-- 多说评论框 end -->
+
+    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    <script type="text/javascript">
+        var duoshuoQuery = {short_name:'yubaris'};
+        (function() {
+            var ds = document.createElement('script');
+            ds.type = 'text/javascript';ds.async = true;
+            ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+            ds.charset = 'UTF-8';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
+        })();
+    </script>
+    <!-- 多说公共JS代码 end -->
+</section>
+
+<style>
+    #mask {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.5);
+        z-index:99999;
+        overflow: auto;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    #toc-container {
+        width: 500px;
+        margin: 30px auto;
+        background: rgba(255, 255, 255, 0.9);
+        padding: 10px 20px;
+        border: 6px solid rgba(0, 0, 0, 0.75);
+        border-radius: 2px;
+    }
+
+    #mask .toc li {
+        margin: 10px;
+    }
+
+    #mask .toc li a {
+        color: rgb(43, 43, 43);
+    }
+
+    #toc-button {
+        float: right;
+        margin-right: 28px;
+        color: #AAA;
+        text-decoration: none;
+    }
+    #toc-button:hover {
+        color: #999;
+    }
+</style>
+
+<!-- Toc -->
+<script type="text/javascript">
+$(document).ready(function() {
+    createMask();
+
+    $(document).keyup(function(e) {
+        if (e.keyCode == 49) {
+            $('#mask').toggle();
+        }
+    });
+
+    $(document).on('click', '#toc-button', function() {
+        $('#mask').toggle();
+    });
+
+    // 隐藏 Mask
+    $(document).on('click', '#mask', function() {
+        $('#mask').hide();
+    });
+
+    // 禁止 Toc 上的鼠标点击事件冒泡
+    $(document).on('click', '#toc-container', function(e) {
+        e.stopPropagation();
+        $('#mask').hide();
+    });
+});
+
+function createMask() {
+    var $mask = $('<div id="mask"><div id="toc-container"></div></div>');
+    var $toc = $('#toc');
+    $mask.find('#toc-container').append($toc);
+    $toc.show();
+    $mask.hide();
+    $('body').prepend($mask);
+}
+</script>
 
 </div>
       <footer id="footer">
@@ -288,8 +373,8 @@
 		mathjax: true,
 		animate: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false

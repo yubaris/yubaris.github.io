@@ -4,6 +4,23 @@
 
     
   <url>
+    <loc>http://yoursite.com/tomcat-https/</loc>
+    <lastmod>2016-12-09T02:32:48.048Z</lastmod>
+    <data>
+        <display>
+        <title>开启tomcat的SSL(https)支持</title>
+        <pubTime>2016-12-09T02:26:52.000Z</pubTime>
+        
+        <tag>cas, java</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/java-okhttp/</loc>
     <lastmod>2016-11-29T02:53:06.355Z</lastmod>
     <data>
