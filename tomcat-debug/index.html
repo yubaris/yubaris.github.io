@@ -4,18 +4,27 @@
   <meta charset="utf-8">
   
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-  <title>tensorflow window安装 | Hexo 博客</title>
+  <title>tomcat远程debug | Hexo 博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Tensorflow机器学习作为人工智能的一种类型，可以让软件根据大量的数据来对未来的情况进行阐述或预判。如今，领先的科技巨头无不在机器学习下予以极大投入。Facebook、苹果、微软，甚至国内的百度。Google 自然也在其中。「TensorFlow」是 Google 多年以来内部的机器学习系统。如今，Google 正在将此系统成为开源系统，并将此系统的参数公布给业界工程师、学者和拥有大量编程能">
+  <meta name="description" content="习惯了用Eclipse的Debug模式，然而有一天你或许会遇到这样的情况：你从JProfiler中打开一个实例，这个实例也会自动启动tomcat，然而你又希望通过Eclipse来Debug这个项目；或者是，你的项目部署在服务器上，而你要想在本地对其进行debug调试。何解？通过设置Tomcat以Debug模式启动可以达到预期效果。
+　　本文的方法适用于本地以及远程。
+tomcat 配置 windo">
 <meta property="og:type" content="article">
-<meta property="og:title" content="tensorflow window安装">
-<meta property="og:url" content="http://yoursite.com/tensorflow/index.html">
+<meta property="og:title" content="tomcat远程debug">
+<meta property="og:url" content="http://yoursite.com/tomcat-debug/index.html">
 <meta property="og:site_name" content="Hexo 博客">
-<meta property="og:description" content="Tensorflow机器学习作为人工智能的一种类型，可以让软件根据大量的数据来对未来的情况进行阐述或预判。如今，领先的科技巨头无不在机器学习下予以极大投入。Facebook、苹果、微软，甚至国内的百度。Google 自然也在其中。「TensorFlow」是 Google 多年以来内部的机器学习系统。如今，Google 正在将此系统成为开源系统，并将此系统的参数公布给业界工程师、学者和拥有大量编程能">
-<meta property="og:updated_time" content="2017-02-23T01:16:34.041Z">
+<meta property="og:description" content="习惯了用Eclipse的Debug模式，然而有一天你或许会遇到这样的情况：你从JProfiler中打开一个实例，这个实例也会自动启动tomcat，然而你又希望通过Eclipse来Debug这个项目；或者是，你的项目部署在服务器上，而你要想在本地对其进行debug调试。何解？通过设置Tomcat以Debug模式启动可以达到预期效果。
+　　本文的方法适用于本地以及远程。
+tomcat 配置 windo">
+<meta property="og:image" content="http://yoursite.com/img/eclipse.png">
+<meta property="og:image" content="http://yoursite.com/img/debug.png">
+<meta property="og:updated_time" content="2017-02-23T01:35:50.123Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="tensorflow window安装">
-<meta name="twitter:description" content="Tensorflow机器学习作为人工智能的一种类型，可以让软件根据大量的数据来对未来的情况进行阐述或预判。如今，领先的科技巨头无不在机器学习下予以极大投入。Facebook、苹果、微软，甚至国内的百度。Google 自然也在其中。「TensorFlow」是 Google 多年以来内部的机器学习系统。如今，Google 正在将此系统成为开源系统，并将此系统的参数公布给业界工程师、学者和拥有大量编程能">
+<meta name="twitter:title" content="tomcat远程debug">
+<meta name="twitter:description" content="习惯了用Eclipse的Debug模式，然而有一天你或许会遇到这样的情况：你从JProfiler中打开一个实例，这个实例也会自动启动tomcat，然而你又希望通过Eclipse来Debug这个项目；或者是，你的项目部署在服务器上，而你要想在本地对其进行debug调试。何解？通过设置Tomcat以Debug模式启动可以达到预期效果。
+　　本文的方法适用于本地以及远程。
+tomcat 配置 windo">
+<meta name="twitter:image" content="http://yoursite.com/img/eclipse.png">
   
     <link rel="alternative" href="/atom.xml" title="Hexo 博客" type="application/atom+xml">
   
@@ -186,7 +195,7 @@
 	</div>
 </nav>
 
-      <div class="body-wrap"><article id="post-tensorflow" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-tomcat-debug" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
         
@@ -205,7 +214,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      tensorflow window安装
+      tomcat远程debug
     </h1>
   
 
@@ -226,20 +235,19 @@
     <div class="article-entry" itemprop="articleBody">
       
         
-        <h1 id="Tensorflow"><a href="#Tensorflow" class="headerlink" title="Tensorflow"></a><strong>Tensorflow</strong></h1><p>机器学习作为人工智能的一种类型，可以让软件根据大量的数据来对未来的情况进行阐述或预判。如今，领先的科技巨头无不在机器学习下予以极大投入。Facebook、苹果、微软，甚至国内的百度。Google 自然也在其中。「TensorFlow」是 Google 多年以来内部的机器学习系统。如今，Google 正在将此系统成为开源系统，并将此系统的参数公布给业界工程师、学者和拥有大量编程能力的技术人员</p>
-<p>2016年11月29日，TF官方宣布0.12版tensorflow支持原生windows操作系统(现在最新是1.0版本),不在需要通过Docker进行安装。作为一个tf初学者，也是windows重度依赖用户，通过在墙里墙外各种搜索，终于找到了一种可行的安装方法。现予以总结，供同行参考。</p>
-<h2 id="安装Python"><a href="#安装Python" class="headerlink" title="安装Python"></a>安装Python</h2><p>TensorFlow在Windows上只支持64位Python3.5，可以通过<a href="https://www.python.org/downloads/release/python-352/" target="_blank" rel="external">Python 3.5 from python.org</a> 或 <a href="https://www.continuum.io/downloads#windows" target="_blank" rel="external">Python 3.5 from Anaconda</a> 下载并安装Python3.5（注意选择正确的操作系统）。</p>
-<h2 id="设置环境变量"><a href="#设置环境变量" class="headerlink" title="设置环境变量"></a>设置环境变量</h2><p>上一步安装完毕后，将Python安装路径下“%安装路径%\Scripts”添加到Path下</p>
-<h2 id="安装TensorFlow"><a href="#安装TensorFlow" class="headerlink" title="安装TensorFlow"></a>安装TensorFlow</h2><h3 id="下载安装包"><a href="#下载安装包" class="headerlink" title="下载安装包"></a>下载安装包</h3><p>在<a href="https://pypi.python.org/pypi/tensorflow/1.0.0/tensorflow-1.0.0-cp35-cp35m-win_amd64.whl" target="_blank" rel="external">https://pypi.python.org/pypi/tensorflow/1.0.0/tensorflow-1.0.0-cp35-cp35m-win_amd64.whl</a>下载对应python版本的TensorFlow包</p>
-<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>把现在对应的包移动到“%安装路径%\Scripts”目录下,启动一个cmd,路径也到“%安装路径%\Scripts”下,执行如下命令:</p>
+        <p>习惯了用Eclipse的Debug模式，然而有一天你或许会遇到这样的情况：你从JProfiler中打开一个实例，这个实例也会自动启动tomcat，然而你又希望通过Eclipse来Debug这个项目；或者是，你的项目部署在服务器上，而你要想在本地对其进行debug调试。何解？通过设置Tomcat以Debug模式启动可以达到预期效果。</p>
+<p>　　本文的方法适用于本地以及远程。</p>
+<h1 id="tomcat-配置"><a href="#tomcat-配置" class="headerlink" title="tomcat 配置"></a>tomcat 配置</h1><p> window下的配置:在start.bat的”set JAVA_OPTS=-Xms2048M -Xmx6144m”下添加如下代码</p>
 <blockquote>
-<p>D:\Program Files\python\Scripts&gt;pip install tensorflow-1.0.0-cp35-cp35m-win_amd64.<br>Processing d:\program files\python\scripts\tensorflow-1.0.0-cp35-cp35m-win_amd64.whl</p>
+<p>SET CATALINA_OPTS=-server -Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8787</p>
 </blockquote>
-<p>如果出现如下信息则安装成功</p>
+<p>linux下的配置:在start.sh中添加如下配置</p>
 <blockquote>
-<p>Requirement already satisfied: wheel&gt;=0.26 in d:\program files\python\lib\site-packages (fr<br>Collecting protobuf&gt;=3.1.0 (from tensorflow==1.0.0)<br>  Downloading protobuf-3.2.0-py2.py3-none-any.whl (360kB)<br>    100% |████████████████████████████████| 368kB 20kB/s<br>Collecting six&gt;=1.10.0 (from tensorflow==1.0.0)<br>  Downloading six-1.10.0-py2.py3-none-any.whl<br>Collecting numpy&gt;=1.11.0 (from tensorflow==1.0.0)<br>  Downloading numpy-1.12.0-cp36-none-win_amd64.whl (7.7MB)<br>    100% |████████████████████████████████| 7.7MB 21kB/s<br>Requirement already satisfied: setuptools in d:\program files\python\lib\site-packages (fro<br>Installing collected packages: six, protobuf, numpy, tensorflow<br>Successfully installed numpy-1.12.0 protobuf-3.2.0 six-1.10.0 tensorflow-1.0.0</p>
+<p>CATALINA_OPTS=”-server -Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8787”</p>
 </blockquote>
-<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="http://blog.csdn.net/include1224/article/details/53452824" target="_blank" rel="external">原生Windows安装TensorFlow 0.12方法</a></p>
+<h1 id="eclipse的配置"><a href="#eclipse的配置" class="headerlink" title="eclipse的配置"></a>eclipse的配置</h1><p><img src="/img/eclipse.png" alt=""></p>
+<p>在port里面输入上面的设置中相对应的端口号。</p>
+<p><img src="/img/debug.png" alt=""></p>
 
       
     </div>
@@ -249,18 +257,9 @@
     
 <nav id="article-nav">
   
-    <a href="/tomcat-debug/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption"><</strong>
-      <div class="article-nav-title">
-        
-          tomcat远程debug
-        
-      </div>
-    </a>
   
-  
-    <a href="/tomcat-https/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">开启tomcat的SSL(https)支持</div>
+    <a href="/tensorflow/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">tensorflow window安装</div>
       <strong class="article-nav-caption">></strong>
     </a>
   
@@ -276,7 +275,7 @@
 
 <section id="comments" class="duoshuo">
     <!-- 多说评论框 start -->
-    <div class="ds-thread" data-thread-key="post-tensorflow" data-title="tensorflow window安装" data-url="http://yoursite.com/tensorflow/"></div>
+    <div class="ds-thread" data-thread-key="post-tomcat-debug" data-title="tomcat远程debug" data-url="http://yoursite.com/tomcat-debug/"></div>
     <!-- 多说评论框 end -->
 
     <!-- 多说公共JS代码 start (一个网页只需插入一次) -->

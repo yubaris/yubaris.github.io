@@ -187,6 +187,78 @@
 
       <div class="body-wrap">
   
+    <article id="post-tomcat-debug" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+        
+
+        
+            <a href="/tomcat-debug/" class="article-date">
+  	<time datetime="2017-02-23T01:19:39.000Z" itemprop="datePublished">2017-02-23</time>
+</a>
+        
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/tomcat-debug/">tomcat远程debug</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        
+        <p>习惯了用Eclipse的Debug模式，然而有一天你或许会遇到这样的情况：你从JProfiler中打开一个实例，这个实例也会自动启动tomcat，然而你又希望通过Eclipse来Debug这个项目；或者是，你的项目部署在服务器上，而你要想在本地对其进行debug调试。何解？通过设置Tomcat以Debug模式启动可以达到预期效果。</p>
+<p>　　本文的方法适用于本地以及远程。</p>
+<h1 id="tomcat-配置"><a href="#tomcat-配置" class="headerlink" title="tomcat 配置"></a>tomcat 配置</h1><p> window下的配置:在start.bat的”set JAVA_OPTS=-Xms2048M -Xmx6144m”下添加如下代码</p>
+<blockquote>
+<p>SET CATALINA_OPTS=-server -Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8787</p>
+</blockquote>
+<p>linux下的配置:在start.sh中添加如下配置</p>
+<blockquote>
+<p>CATALINA_OPTS=”-server -Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8787”</p>
+</blockquote>
+<h1 id="eclipse的配置"><a href="#eclipse的配置" class="headerlink" title="eclipse的配置"></a>eclipse的配置</h1><p><img src="/img/eclipse.png" alt=""></p>
+<p>在port里面输入上面的设置中相对应的端口号。</p>
+<p><img src="/img/debug.png" alt=""></p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/util/">util</a></li></ul>
+	</div>
+
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+  
     <article id="post-tensorflow" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">

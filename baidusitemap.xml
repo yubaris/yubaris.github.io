@@ -4,6 +4,23 @@
 
     
   <url>
+    <loc>http://yoursite.com/tomcat-debug/</loc>
+    <lastmod>2017-02-23T01:35:50.123Z</lastmod>
+    <data>
+        <display>
+        <title>tomcat远程debug</title>
+        <pubTime>2017-02-23T01:19:39.000Z</pubTime>
+        
+        <tag>util</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/tensorflow/</loc>
     <lastmod>2017-02-23T01:16:34.041Z</lastmod>
     <data>
