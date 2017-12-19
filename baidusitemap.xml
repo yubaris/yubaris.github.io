@@ -4,6 +4,40 @@
 
     
   <url>
+    <loc>http://yoursite.com/python/</loc>
+    <lastmod>2017-12-19T03:37:32.022Z</lastmod>
+    <data>
+        <display>
+        <title>python安装</title>
+        <pubTime>2017-12-19T02:57:01.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/java-okhttp/</loc>
+    <lastmod>2017-12-19T03:05:32.146Z</lastmod>
+    <data>
+        <display>
+        <title>OkHttp：Java 平台上的新一代 HTTP 客户端</title>
+        <pubTime>2016-11-29T02:19:55.000Z</pubTime>
+        
+        <tag>java</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/tomcat-debug/</loc>
     <lastmod>2017-02-23T01:40:01.505Z</lastmod>
     <data>
@@ -46,23 +80,6 @@
         <pubTime>2016-12-09T02:26:52.000Z</pubTime>
         
         <tag>cas</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/java-okhttp/</loc>
-    <lastmod>2016-11-29T02:53:06.355Z</lastmod>
-    <data>
-        <display>
-        <title>OkHttp：Java 平台上的新一代 HTTP 客户端</title>
-        <pubTime>2016-11-29T02:19:55.000Z</pubTime>
-        
-        <tag>java</tag>
          
          
            
